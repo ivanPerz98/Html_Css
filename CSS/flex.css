@@ -1,0 +1,38 @@
+.flex {
+    display: flex;
+
+    flex-direction: column;
+    /* cambia el eje principal(horizontal) por el vertical*/
+
+    background-color: yellow;
+    height: 300px;
+    /* justify-content: center; /*posiciona de forma horizontal siempre que la direccion sea row o por defecto*/
+    justify-content: space-around;
+    align-items: center;
+    /*posiciona de forma vertical siempre que la direccion sea row o por defecto*/
+    /*flex-wrap: wrap;*/
+}
+
+.contenido-1 {
+    background-color: white;
+    /* height: 200px ;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+
+
+.contenido-2 {
+    background-color: white;
+    /*height: 200px;*/
+    width: 100px;
+    border: 1px solid blue;
+}
+
+
+.contenido-3 {
+    background-color: pink;
+    /*height: 200px*/
+    ;
+    width: 100px;
+    border: 1px solid blue;
+}
